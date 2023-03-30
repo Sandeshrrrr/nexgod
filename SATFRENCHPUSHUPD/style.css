@@ -1,0 +1,63 @@
+:root {
+    --text-color: #fff; /* white */
+    --bg-color: #000; /* black */
+    --accent-color: #f00; /* red */
+  }
+  body {
+    background-color: var(--bg-color);
+  }
+  <header>
+    <img src="logo.png" alt="Logo">
+  </header>
+  section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  h1 {
+    font-size: 6rem;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--accent-color);
+
+  .products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 2rem;
+    margin: 50px auto;
+  }
+  <footer>
+    <nav>
+
+  
+  footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: var(--text-color);
+    color: var(--bg-color);
+  }
+  
+  nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  nav a {
+    margin-right: 20px;
+    color: var(--bg-color);
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    color: var(--accent-color);
+  }
+  
+  p {
+    font-size: 0.8rem;
